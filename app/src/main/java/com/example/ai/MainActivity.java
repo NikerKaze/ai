@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        eTLanguage = findViewById(R.id.eTWords);
+        eTLanguage = findViewById(R.id.eTLanguage);
         eTWords = findViewById(R.id.eTWords);
         tVResult = findViewById(R.id.tVResult);
         tVResult.setMovementMethod(new ScrollingMovementMethod());
